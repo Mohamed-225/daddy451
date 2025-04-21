@@ -1,0 +1,202 @@
+{% extends './partials/layout/layout2.html' %}
+
+{% block content %}
+
+<div class="rbt-utilize-area rainbow-section-gap-big">
+    <div class="container">
+        <div class="utilize-inner">
+            <div class="row g-5">
+                <div class="col-lg-3">
+                    <div class="rbt-default-sidebar sticky-top rbt-shadow-box">
+                        <div class="inner">
+                            <div class="content-item-content">
+                                <div class="rbt-default-sidebar-wrapper">
+                                    <nav class="mainmenu-nav">
+                                        <ul class="dashboard-mainmenu rbt-default-sidebar-list">
+                                            <li class="has-submenu"><a class="collapse-btn" data-bs-toggle="collapse" href="#getstarted" role="button" aria-expanded="true" aria-controls="getstarted"><span>Getting Started</span></a>
+                                                <div class="show" id="getstarted">
+                                                    <ul class="submenu rbt-default-sidebar-list">
+                                                        <li>
+                                                            <a href="#text-generator-sec">
+                                                                <span>Using the AI Text Generator</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#pernalized-sec"><span>Receive Personalized Guidance</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#engage-sec">
+                                                                <span>Explore & Engage</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="has-submenu"><a class="collapse-btn collapsed" data-bs-toggle="collapse" href="#pricing" role="button" aria-expanded="false" aria-controls="pricing"><span>Pricing Plans</span></a>
+                                                <div class="collapse" id="pricing">
+                                                    <ul class="submenu rbt-default-sidebar-list">
+                                                        <li>
+                                                            <a href="#example1">
+                                                                <span>Example Feature 1</span> {/* Updated Placeholder */}
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#example2"><span>Example Feature 2</span></a> {/* Updated Placeholder */}
+                                                        </li>
+                                                        <li>
+                                                            <a href="#example3">
+                                                                <span>Example Feature 3</span> {/* Updated Placeholder */}
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="has-submenu"><a class="collapse-btn collapsed" data-bs-toggle="collapse" href="#corefeature" role="button" aria-expanded="false" aria-controls="corefeature"><span>Core Features</span></a>
+                                                <div class="collapse" id="corefeature">
+                                                    <ul class="submenu rbt-default-sidebar-list">
+                                                        <li>
+                                                            <a href="#">
+                                                                <span>AI-Powered Text Generation</span> {/* Updated Placeholder */}
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span>Personalized Content Suggestions</span></a> {/* Updated Placeholder */}
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <span>Advanced Customization</span> {/* Updated Placeholder */}
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li><a href="#"><span>Product Roadmap</span></a></li>
+                                            <li><a href="#"><span>Advanced Features</span></a></li>
+                                            <li><a href="#"><span>Help & Support</span></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 inner-content pl--0">
+
+                    <div id="getstarted_two" class="single-inner-box">
+                        <h3 class="section-title">Getting Started</h3>
+                        <div id="text-generator-sec" class="rbt-elements-area rbt-shadow-box">
+                            <div class="wrapper">
+                                <h4 class="title-sm">Leveraging the AI Text Generator</h4>
+                                <div class="desc">
+                                    <div class="image">
+                                        <img src="/static/images/utilize-img/ut-image-01.png" alt="AI Text Generation Process">
+                                    </div>
+                                    <p class="b1">Registering for your <strong>kengster</strong> account is quick and straightforward. Provide your name, email address, and select a secure password to begin. Once registered, you gain immediate access to explore the application's powerful features and capabilities.</p> {/* Updated with kengster */}
+                                    <h6>Powered by Deep Learning & Transformers</h6>
+                                    <ul class="content-list">
+                                        <li>Our AI leverages cutting-edge deep learning, particularly transformer architectures, which have significantly advanced Natural Language Processing (NLP) since 2013.</li>
+                                        <li>We utilize models inspired by state-of-the-art transformer architectures, like the GPT series, renowned for their sophisticated language understanding and generation.</li>
+                                        <li>This advanced technology enables diverse applications, including intelligent chatbots, automated content creation, and much more, boosting efficiency and creativity.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="pernalized-sec" class="rbt-elements-area rbt-shadow-box">
+                            <div class="wrapper">
+                                <h4 class="title-sm">Receive Personalized Guidance</h4>
+                                <div class="desc">
+                                    <div class="image">
+                                        <img src="/static/images/utilize-img/ut-image-02.png" alt="Personalized Advice Interface">
+                                    </div>
+                                     <p class="b1">Unlock tailored suggestions and insights based on your usage patterns and preferences. <strong>kengster</strong> learns from your interactions to provide relevant advice, helping you maximize the platform's potential for your specific needs.</p> {/* Updated with kengster */}
+                                    <h6>Intelligent Recommendation Engine</h6>
+                                    <ul class="content-list">
+                                         <li>Our system analyzes your inputs and goals to offer customized recommendations.</li>
+                                         <li>Receive tips on optimizing prompts for better results.</li>
+                                         <li>Discover features and use cases most relevant to your workflow.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="engage-sec" class="rbt-elements-area rbt-shadow-box">
+                            <div class="wrapper">
+                                <h4 class="title-sm">Explore & Engage with Features</h4>
+                                <div class="desc">
+                                    <div class="image">
+                                        <img src="/static/images/utilize-img/ut-image-03.png" alt="Exploring Platform Features">
+                                    </div>
+                                    <p class="b1">Dive into the rich feature set of <strong>kengster</strong>. Experiment with different AI models, explore various content formats, and engage with tools designed to streamline your creative or communication processes effectively.</p> {/* Updated with kengster */}
+                                    <h6>Intuitive User Experience</h6>
+                                    <ul class="content-list">
+                                        <li>Navigate easily through a clean and user-friendly interface.</li>
+                                        <li>Access comprehensive documentation and tutorials for guidance.</li>
+                                        <li>Join community forums to share experiences and learn from others.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="pricing_two" class="single-inner-box">
+                        <h3 class="section-title">Pricing Plans</h3>
+                        {/* Note: The following sections repeat content. Update with unique content as needed. */}
+                        <div id="example1" class="rbt-elements-area rbt-shadow-box">
+                            <div class="wrapper">
+                                <h4 class="title-sm">Plan Feature Example 1</h4>
+                                <div class="desc">
+                                    <div class="image">
+                                        <img src="/static/images/utilize-img/ut-image-01.png" alt="Pricing Plan Feature 1">
+                                    </div>
+                                    <p class="b1">Registering for your <strong>kengster</strong> account is quick and straightforward. Provide your name, email address, and select a secure password to begin. Once registered, you gain immediate access to explore the application's powerful features and capabilities.</p> {/* Updated with kengster */}
+                                    <h6>Powered by Deep Learning & Transformers</h6>
+                                    <ul class="content-list">
+                                        <li>Our AI leverages cutting-edge deep learning, particularly transformer architectures, which have significantly advanced Natural Language Processing (NLP) since 2013.</li>
+                                        <li>We utilize models inspired by state-of-the-art transformer architectures, like the GPT series, renowned for their sophisticated language understanding and generation.</li>
+                                        <li>This advanced technology enables diverse applications, including intelligent chatbots, automated content creation, and much more, boosting efficiency and creativity.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="example2" class="rbt-elements-area rbt-shadow-box">
+                            <div class="wrapper">
+                                <h4 class="title-sm">Plan Feature Example 2</h4>
+                                <div class="desc">
+                                    <div class="image">
+                                        <img src="/static/images/utilize-img/ut-image-02.png" alt="Pricing Plan Feature 2">
+                                    </div>
+                                   <p class="b1">Registering for your <strong>kengster</strong> account is quick and straightforward. Provide your name, email address, and select a secure password to begin. Once registered, you gain immediate access to explore the application's powerful features and capabilities.</p> {/* Updated with kengster */}
+                                    <h6>Powered by Deep Learning & Transformers</h6>
+                                    <ul class="content-list">
+                                        <li>Our AI leverages cutting-edge deep learning, particularly transformer architectures, which have significantly advanced Natural Language Processing (NLP) since 2013.</li>
+                                        <li>We utilize models inspired by state-of-the-art transformer architectures, like the GPT series, renowned for their sophisticated language understanding and generation.</li>
+                                        <li>This advanced technology enables diverse applications, including intelligent chatbots, automated content creation, and much more, boosting efficiency and creativity.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="example3" class="rbt-elements-area rbt-shadow-box">
+                            <div class="wrapper">
+                                 <h4 class="title-sm">Plan Feature Example 3</h4>
+                                <div class="desc">
+                                    <div class="image">
+                                        <img src="/static/images/utilize-img/ut-image-03.png" alt="Pricing Plan Feature 3">
+                                    </div>
+                                    <p class="b1">Registering for your <strong>kengster</strong> account is quick and straightforward. Provide your name, email address, and select a secure password to begin. Once registered, you gain immediate access to explore the application's powerful features and capabilities.</p> {/* Updated with kengster */}
+                                    <h6>Powered by Deep Learning & Transformers</h6>
+                                    <ul class="content-list">
+                                        <li>Our AI leverages cutting-edge deep learning, particularly transformer architectures, which have significantly advanced Natural Language Processing (NLP) since 2013.</li>
+                                        <li>We utilize models inspired by state-of-the-art transformer architectures, like the GPT series, renowned for their sophisticated language understanding and generation.</li>
+                                        <li>This advanced technology enables diverse applications, including intelligent chatbots, automated content creation, and much more, boosting efficiency and creativity.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
