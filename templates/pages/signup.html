@@ -37,20 +37,28 @@
             color: #333; /* Added text color for better readability */
         }
 
-        .btn-close {
+        /* === Updated CSS Selector for Higher Specificity === */
+        #popup .btn-close {
             margin-top: 15px;
             padding: 8px 16px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.2s ease; /* Added transition */
+            background-color: #007BFF; /* Blue background */
+            color: white;             /* White text */
+            border: none;             /* No border */
+            border-radius: 5px;      /* Rounded corners */
+            cursor: pointer;          /* Pointer cursor on hover */
+            transition: background-color 0.2s ease; /* Smooth hover effect */
+            font-size: 14px; /* Example: Explicitly set font size if needed */
+            line-height: 1.5; /* Example: Adjust line height if needed */
+            /* Add any other styles that might be overridden */
         }
 
-        .btn-close:hover {
-            background-color: #0056b3;
+        /* === Updated CSS Selector for Hover State === */
+        #popup .btn-close:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            color: white; /* Ensure text color remains white on hover */
         }
+        /* === End of Updated CSS === */
+
     </style>
 </head>
 
