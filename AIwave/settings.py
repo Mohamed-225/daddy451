@@ -14,7 +14,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-dev-key')
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 # السماح بالاستضافة
-ALLOWED_HOSTS = ['kengster.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['kengster.onrender.com', 'localhost', '127.0.0.1', 'www.kengster.org', 'kengster.org']
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
