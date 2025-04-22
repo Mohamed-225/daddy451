@@ -1,7 +1,113 @@
-{% extends './partials/layout/layout2.html' %}
 
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
 
+{% include 'partials/head.html' %}
+
+<body>
+    <main class="page-wrapper">
+        <!-- Start Header Top Area  -->
+        <div class="header-top-news bg-image1">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="inner">
+                                <div class="content">
+                                    <span class="rainbow-badge">Limited Time Offer</span>
+                                    <span class="news-text">Intro price. Get kengster for Big Sale -35% off.</span>
+                                </div>
+                                <div class="right-button">
+                                    <a class="btn-read-more" target="_blank" href="/pages/signup">
+                                        <span>Purchase Now <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="icon-close">
+                <button class="close-button bgsection-activation">
+                    <i class="fa-sharp fa-regular fa-x"></i>
+                </button>
+            </div>
+        </div>
+        <!-- End Header Top Area  -->
+        <!-- Start Header Area  -->
+        <header class="rainbow-header header-default header-transparent header-sticky">
+            <div class="container position-relative">
+                <div class="row align-items-center row--0">
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <div class="logo">
+                            <a href="/">
+                                <img class="logo-light" src="/static/images/logo/logo.png" alt="ChatBot Logo">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 d-none d-lg-block">
+                        <nav class="mainmenu-nav d-none d-lg-flex justify-content-center">
+                            {% include 'partials/mainMenuItem.html' %}
+                        </nav>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-6 position-static">
+                        <div class="header-right">
+
+                            <!-- Start Header Btn  -->
+                            <div class="header-btn">
+                                <a class="rainbow-gradient-btn" target="_blank" href="/tools/text-generator"><span>Get Start</span></a>
+                            </div>
+                            <!-- End Header Btn  -->
+
+                            <!-- Start Mobile-Menu-Bar -->
+                            <div class="mobile-menu-bar ml--5 d-flex justify-content-end d-lg-none">
+                                <div class="hamberger">
+                                    <button class="hamberger-button">
+                                        <i class="fa-sharp fa-regular fa-bars"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- Start Mobile-Menu-Bar -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header Area  -->
+        <div class="popup-mobile-menu">
+            <div class="inner-popup">
+                <div class="header-top">
+                    <div class="logo">
+                        <a href="/">
+                            <img class="logo-light" src="/static/images/logo/logo.png" alt="ChatBot Logo">
+                        </a>
+                    </div>
+                    <div class="close-menu">
+                        <button class="close-button">
+                            <i class="fa-sharp fa-regular fa-x"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="content">
+                    {% include 'partials/mainMenuItem.html' %}
+
+                    <div class="rbt-sm-separator"></div>
+                </div>
+
+                <!-- Start Header Btn  -->
+                <div class="header-btn d-block d-md-none">
+                    <a class="btn-default @@btnClass" target="_blank" href="/tools/text-generator">Get Started Free</a>
+                </div>
+                <!-- End Header Btn  -->
+            </div>
+        </div>
+
+        <!-- Imroz Preloader -->
+        	
+<div style="padding: 50px;"></div>
 <div class="rbt-utilize-area rainbow-section-gap-big">
     <div class="container">
         <div class="utilize-inner">
@@ -91,7 +197,7 @@
                                     <div class="image">
                                         <img src="/static/images/utilize-img/ut-image-01.png" alt="AI Text Generation Process">
                                     </div>
-                                    <p class="b1">Registering for your <strong>kengster</strong> account is quick and straightforward. Provide your name, email address, and select a secure password to begin. Once registered, you gain immediate access to explore the application's powerful features and capabilities.</p> {/* Updated with kengster */}
+                                    <p class="b1">Registering for your <strong>kengster</strong> account is quick and straightforward. Provide your name, email address, and select a secure password to begin. Once registered, you gain immediate access to explore the application's powerful features and capabilities.</p> 
                                     <h6>Powered by Deep Learning & Transformers</h6>
                                     <ul class="content-list">
                                         <li>Our AI leverages cutting-edge deep learning, particularly transformer architectures, which have significantly advanced Natural Language Processing (NLP) since 2013.</li>
@@ -108,7 +214,7 @@
                                     <div class="image">
                                         <img src="/static/images/utilize-img/ut-image-02.png" alt="Personalized Advice Interface">
                                     </div>
-                                     <p class="b1">Unlock tailored suggestions and insights based on your usage patterns and preferences. <strong>kengster</strong> learns from your interactions to provide relevant advice, helping you maximize the platform's potential for your specific needs.</p> {/* Updated with kengster */}
+                                     <p class="b1">Unlock tailored suggestions and insights based on your usage patterns and preferences. <strong>kengster</strong> learns from your interactions to provide relevant advice, helping you maximize the platform's potential for your specific needs.</p> 
                                     <h6>Intelligent Recommendation Engine</h6>
                                     <ul class="content-list">
                                          <li>Our system analyzes your inputs and goals to offer customized recommendations.</li>
@@ -125,7 +231,7 @@
                                     <div class="image">
                                         <img src="/static/images/utilize-img/ut-image-03.png" alt="Exploring Platform Features">
                                     </div>
-                                    <p class="b1">Dive into the rich feature set of <strong>kengster</strong>. Experiment with different AI models, explore various content formats, and engage with tools designed to streamline your creative or communication processes effectively.</p> {/* Updated with kengster */}
+                                    <p class="b1">Dive into the rich feature set of <strong>kengster</strong>. Experiment with different AI models, explore various content formats, and engage with tools designed to streamline your creative or communication processes effectively.</p> 
                                     <h6>Intuitive User Experience</h6>
                                     <ul class="content-list">
                                         <li>Navigate easily through a clean and user-friendly interface.</li>
@@ -139,7 +245,7 @@
 
                     <div id="pricing_two" class="single-inner-box">
                         <h3 class="section-title">Pricing Plans</h3>
-                        {/* Note: The following sections repeat content. Update with unique content as needed. */}
+                        
                         <div id="example1" class="rbt-elements-area rbt-shadow-box">
                             <div class="wrapper">
                                 <h4 class="title-sm">Plan Feature Example 1</h4>
@@ -147,7 +253,7 @@
                                     <div class="image">
                                         <img src="/static/images/utilize-img/ut-image-01.png" alt="Pricing Plan Feature 1">
                                     </div>
-                                    <p class="b1">Registering for your <strong>kengster</strong> account is quick and straightforward. Provide your name, email address, and select a secure password to begin. Once registered, you gain immediate access to explore the application's powerful features and capabilities.</p> {/* Updated with kengster */}
+                                    <p class="b1">Registering for your <strong>kengster</strong> account is quick and straightforward. Provide your name, email address, and select a secure password to begin. Once registered, you gain immediate access to explore the application's powerful features and capabilities.</p> 
                                     <h6>Powered by Deep Learning & Transformers</h6>
                                     <ul class="content-list">
                                         <li>Our AI leverages cutting-edge deep learning, particularly transformer architectures, which have significantly advanced Natural Language Processing (NLP) since 2013.</li>
@@ -164,7 +270,7 @@
                                     <div class="image">
                                         <img src="/static/images/utilize-img/ut-image-02.png" alt="Pricing Plan Feature 2">
                                     </div>
-                                   <p class="b1">Registering for your <strong>kengster</strong> account is quick and straightforward. Provide your name, email address, and select a secure password to begin. Once registered, you gain immediate access to explore the application's powerful features and capabilities.</p> {/* Updated with kengster */}
+                                   <p class="b1">Registering for your <strong>kengster</strong> account is quick and straightforward. Provide your name, email address, and select a secure password to begin. Once registered, you gain immediate access to explore the application's powerful features and capabilities.</p> 
                                     <h6>Powered by Deep Learning & Transformers</h6>
                                     <ul class="content-list">
                                         <li>Our AI leverages cutting-edge deep learning, particularly transformer architectures, which have significantly advanced Natural Language Processing (NLP) since 2013.</li>
@@ -181,7 +287,7 @@
                                     <div class="image">
                                         <img src="/static/images/utilize-img/ut-image-03.png" alt="Pricing Plan Feature 3">
                                     </div>
-                                    <p class="b1">Registering for your <strong>kengster</strong> account is quick and straightforward. Provide your name, email address, and select a secure password to begin. Once registered, you gain immediate access to explore the application's powerful features and capabilities.</p> {/* Updated with kengster */}
+                                    <p class="b1">Registering for your <strong>kengster</strong> account is quick and straightforward. Provide your name, email address, and select a secure password to begin. Once registered, you gain immediate access to explore the application's powerful features and capabilities.</p> 
                                     <h6>Powered by Deep Learning & Transformers</h6>
                                     <ul class="content-list">
                                         <li>Our AI leverages cutting-edge deep learning, particularly transformer architectures, which have significantly advanced Natural Language Processing (NLP) since 2013.</li>
@@ -198,5 +304,6 @@
         </div>
     </div>
 </div>
-
-{% endblock content %}
+</main>
+</body>
+</html>
