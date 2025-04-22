@@ -97,3 +97,4 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 # إعداد الـ Auto Field
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEBUG = False
